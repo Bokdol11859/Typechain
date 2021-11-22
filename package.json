@@ -1,0 +1,28 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Blockchain made with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bokdol11859/Typechain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bokdol11859/Typechain/issues"
+  },
+  "homepage": "https://github.com/Bokdol11859/Typechain#readme",
+  "dependencies": {
+    "tsc-watch": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
